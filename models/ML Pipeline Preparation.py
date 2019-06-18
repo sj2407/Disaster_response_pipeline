@@ -258,7 +258,7 @@ y_pred = newmodel.predict(X_test)
 # In[10]:
 
 
-with open('newmodel.pkl', 'wb') as file:
+with open('classifier.pkl', 'wb') as file:
     pickle.dump(newmodel, file)
 
 
@@ -386,7 +386,7 @@ def save_model(model,model_path):
     Output: 
     pickle file of the saved model
     '''
-    with open('newmodel.pkl', 'wb') as file:
+    with open('classifier.pkl', 'wb') as file:
         pickle.dump(newmodel, file)
         
 def main():
