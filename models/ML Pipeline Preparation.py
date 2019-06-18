@@ -365,7 +365,7 @@ def build_model():
 
     return cv
 
-def evaulate_model(model,X_test,Y_test,category_names):
+def evaluate_model(model,X_test,Y_test,category_names):
     '''
     This function will evaluate the model performance
     Input:
